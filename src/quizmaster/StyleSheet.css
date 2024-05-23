@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 3, 2021, 11:34:09 AM
+    Author     : Tony Ndoss
+*/
+
+#pane, #pane1, #pane2, #smallRoot2, #root3{
+    -fx-background-image: url("images/Icon.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:center;
+    -fx-background-color:aqua;
+}
+
+#quiz, #master{
+    -fx-text-fill: white;
+    /*-fx-background-color: yellow;*/ 
+    -fx-font-size: 60px;
+    -fx-font-family: serif;
+    -fx-font-weight: bold;
+    /*-fx-effect: dropshadow( one-pass-box, black, 8, 0.0, 2, 0 );*/
+    
+    
+}
+
+#startButton{
+    -fx-font-size: 20px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 40px;
+    
+}
+
+#exit, #quitGame, #pause, #back{
+    -fx-font-size: 20px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 40px;
+    -fx-background-color: darkred;
+    -fx-text-fill: white;
+    
+}
+
+#begin, #options, #instructions, #bestScore, #about{
+    -fx-font-size: 30px;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 60px;   
+    -fx-background-color: gold;
+    -fx-text-fill: darkred;
+}
+
+#question{
+    -fx-background-color: darkred;
+    -fx-text-fill: white;
+    -fx-font-size: 30px;
+    /*-fx-text-alignment: center;*/
+}
+
+#startMess, #vbox, #instructions1{
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-font-size: 30px;
+}
+
+#proposition1, #proposition2, #proposition3, #proposition4{
+    -fx-font-size: 20px;
+    -fx-pref-width: 300px;
+    -fx-pref-height: 60px;
+    -fx-background-color: gold;
+    -fx-text-fill: darkred;
+}
+
+#scoreMess, #actualScore, #timeRemaingMess, #timeRemaining{
+    -fx-font-size: 30px;
+    -fx-pref-width: 220px;
+    -fx-pref-height: 50px;
+    -fx-background-color: white;
+}
